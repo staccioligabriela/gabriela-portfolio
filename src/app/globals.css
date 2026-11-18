@@ -1,64 +1,67 @@
 @import "tailwindcss";
-@import "@fontsource-variable/bricolage-grotesque/opsz.css";
 
 /*
-  Palette: the Oslo fjord meets the Mallorca coast.
-  spray     pale sea spray, the page background
-  foam      white, raised surfaces
-  fjord     deep blue-green ink, text and dark sections
-  seagrass  posidonia green, secondary accent
-  sunlit    Mediterranean sun, the one bright accent (use sparingly)
-  mist      muted text on light backgrounds
+  Palette: Gabriela's personal brand (from her portfolio deck).
+  night   deep purple, the page background
+  plum    lighter purple, raised sections
+  lilac   brand accent (icons, spiral, waves)
+  orchid  light lilac for small accent text, numbers and the contact section
+  cloud   white, main text
+  haze    muted text on purple
 */
 :root {
-  --spray: #eef4f2;
-  --foam: #ffffff;
-  --fjord: #12343b;
-  --seagrass: #2f6b4f;
-  --sunlit: #f2c14e;
-  --mist: #4a666c;
+  --night: #291138;
+  --plum: #3e2150;
+  --lilac: #a66bcb;
+  --orchid: #cda6e8;
+  --cloud: #ffffff;
+  --haze: #cbbbd8;
 }
 
 @theme inline {
-  --color-spray: var(--spray);
-  --color-foam: var(--foam);
-  --color-fjord: var(--fjord);
-  --color-seagrass: var(--seagrass);
-  --color-sunlit: var(--sunlit);
-  --color-mist: var(--mist);
-  --font-sans: "Bricolage Grotesque Variable", ui-sans-serif, system-ui, sans-serif;
+  --color-night: var(--night);
+  --color-plum: var(--plum);
+  --color-lilac: var(--lilac);
+  --color-orchid: var(--orchid);
+  --color-cloud: var(--cloud);
+  --color-haze: var(--haze);
+  --font-sans: var(--font-montserrat), ui-sans-serif, system-ui, sans-serif;
 }
 
 html {
-  background: var(--spray);
-  color: var(--fjord);
+  background: var(--night);
+  color: var(--cloud);
 }
 
 body {
   font-family: var(--font-sans);
-  font-optical-sizing: auto;
 }
 
 ::selection {
-  background: var(--sunlit);
-  color: var(--fjord);
+  background: var(--lilac);
+  color: var(--cloud);
 }
 
 :focus-visible {
-  outline: 3px solid var(--sunlit);
+  outline: 3px solid var(--orchid);
   outline-offset: 3px;
   border-radius: 4px;
 }
 
-/* Big display type: tight and heavy, optical size pushed up */
+/* Big display type: Montserrat, bold and slightly tightened */
 .display {
   font-weight: 700;
-  font-variation-settings: "opsz" 96;
-  letter-spacing: -0.035em;
-  line-height: 0.95;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
 }
 
-/* The arch: Gabriela's photo framed like a Mediterranean window */
+/* Wavy line pattern from Gabriela's deck, used as a quiet background texture */
+.waves {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='32' viewBox='0 0 80 32'%3E%3Cpath d='M0 16 C 10 4, 30 4, 40 16 S 70 28, 80 16' fill='none' stroke='%23a66bcb' stroke-opacity='0.22' stroke-width='5'/%3E%3C/svg%3E");
+  background-size: 80px 32px;
+}
+
+/* The arch: Gabriela's photo frame in the hero */
 .arch {
   border-radius: 999px 999px 1.5rem 1.5rem;
 }

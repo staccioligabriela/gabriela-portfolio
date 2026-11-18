@@ -9,7 +9,7 @@ export default function Contact() {
   ];
 
   return (
-    <section id="contact" className="scroll-mt-8 bg-sunlit">
+    <section id="contact" className="waves scroll-mt-8 bg-orchid text-night">
       <div className="mx-auto max-w-6xl px-4 py-20 sm:px-8 md:py-28">
         <h2 className="display text-5xl md:text-6xl">Let&apos;s talk</h2>
         <p className="mt-6 max-w-xl text-xl leading-relaxed">
@@ -17,7 +17,7 @@ export default function Contact() {
         </p>
         <a
           href={`mailto:${profile.email}`}
-          className="display mt-10 inline-block break-all text-[clamp(1.75rem,5.5vw,4.5rem)] underline decoration-4 underline-offset-8 hover:decoration-seagrass"
+          className="display mt-10 inline-block break-all text-[clamp(1.75rem,5.5vw,4.5rem)] underline decoration-4 underline-offset-8 hover:decoration-plum"
         >
           {profile.email}
         </a>
@@ -28,7 +28,7 @@ export default function Contact() {
                 href={link.href}
                 target={link.href.startsWith("http") ? "_blank" : undefined}
                 rel="noreferrer"
-                className="inline-block rounded-full border-2 border-fjord px-5 py-2.5 text-base font-semibold transition-colors hover:bg-fjord hover:text-sunlit"
+                className="inline-block rounded-full border-2 border-night px-5 py-2.5 text-base font-semibold transition-colors hover:bg-night hover:text-orchid"
               >
                 {link.label}
               </a>

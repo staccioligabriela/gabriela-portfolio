@@ -96,16 +96,16 @@ Page layout lives in `src/components/` (one file per home page section) and `src
 
 ## Design rules
 
-The look is "the Oslo fjord meets the Mallorca coast". Colors are Tailwind tokens defined in `src/app/globals.css`:
+The look follows Gabriela's personal brand (her portfolio deck): deep purples, lilac accents, white text, Montserrat. Colors are Tailwind tokens defined in `src/app/globals.css`:
 
-- `spray` (#EEF4F2): page background
-- `foam` (#FFFFFF): raised sections
-- `fjord` (#12343B): text and dark sections
-- `seagrass` (#2F6B4F): secondary accent, links, numbers
-- `sunlit` (#F2C14E): the one bright accent; use sparingly (contact section, focus rings, small highlights)
-- `mist` (#4A666C): muted text
+- `night` (#291138): page background
+- `plum` (#3E2150): raised and alternating sections
+- `lilac` (#A66BCB): brand accent for shapes (arch shadow, spiral, waves)
+- `orchid` (#CDA6E8): light lilac for small accent text, numbers, links, and the contact section background
+- `cloud` (#FFFFFF): main text
+- `haze` (#CBBBD8): muted text
 
-Typography: Bricolage Grotesque (self-hosted via `@fontsource-variable`), one family for everything. Big headings use the `display` class. The signature element is her photo in the arch shape (`arch` class) in the hero; don't repeat the arch elsewhere.
+Typography: Montserrat (loaded with `next/font/google` in `src/app/layout.tsx`), one family for everything. Big headings use the `display` class. Her photo sits in the arch shape (`arch` class) in the hero, with a lilac spiral beside it. The `waves` class adds her wavy line pattern as a quiet background (contact section, next-project link); use it sparingly.
 
 Writing rules:
 - Never use em dashes (—) in site copy. Use a comma, a full stop, or "to" for ranges ("2020 to 2022").

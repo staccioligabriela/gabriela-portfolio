@@ -48,7 +48,7 @@ export interface Project {
 export interface ExperienceItem {
   role: string;
   organisation: string;
-  place: string;
+  place?: string; // Optional, e.g. left out for freelance work
   start: string; // e.g. "2024"
   end: string; // e.g. "Now" or "2022"
   summary: string;

@@ -3,13 +3,13 @@ import type { EducationItem, ExperienceItem } from "@/lib/types";
 // Newest first.
 export const experience: ExperienceItem[] = [
   {
-    role: "Marketing Manager",
+    role: "Marketing Manager and Content Creator",
     organisation: "Mesh Oslo",
     place: "Oslo",
     start: "2024",
     end: "Now",
     summary:
-      "Content, events and community for two locations. Social, newsletter, photo and video, agency and freelancer coordination.",
+      "Content, events and community for two locations. I own event photo and video from concept to final cut, run social, Slack and the newsletter, and work with our freelancers and ads agency.",
     project: "mesh-oslo",
   },
   {
@@ -24,11 +24,19 @@ export const experience: ExperienceItem[] = [
   {
     role: "Media Team Lead, volunteer",
     organisation: "Startup Extreme",
-    place: "Norway",
+    place: "Oslo",
     start: "2024",
     end: "2024",
     summary: "Led the volunteer media team from planning to on-site production.",
     project: "startup-extreme",
+  },
+  {
+    role: "Social Media Specialist and Digital Designer",
+    organisation: "Freelance",
+    start: "2022",
+    end: "2026",
+    summary:
+      "Photo, video and multimedia content for brands' social channels. Brand identities, graphic materials and merchandise, and advice on digital marketing, social media strategy and app design.",
   },
   {
     role: "Social Media Manager and Content Creator",
@@ -51,21 +59,21 @@ export const experience: ExperienceItem[] = [
 
 export const education: EducationItem[] = [
   {
-    title: "BA in Interaction Design and Technology",
+    title: "BA in Digital Design and New Technologies",
+    school: "University of Lleida (UdL)",
+    place: "Spain",
+    years: "2022 to 2025",
+  },
+  {
+    title: "Exchange year in Interaction Design",
     school: "NTNU Gjøvik",
     place: "Norway",
-    years: "2022 to 2024",
+    years: "2023 to 2024",
   },
   {
-    title: "BA in Interaction Design and Technology, first two years",
-    school: "Universitat de Lleida",
-    place: "Spain",
-    years: "2020 to 2022",
-  },
-  {
-    title: "Higher Education Certificate in Marketing and Advertising",
+    title: "Certificate of Higher Education in Marketing and Advertising",
     school: "IES Manacor",
     place: "Spain",
-    years: "2019",
+    years: "2020 to 2023",
   },
 ];

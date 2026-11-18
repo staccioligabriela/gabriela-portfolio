@@ -24,6 +24,7 @@ export const profile: Profile = {
     { name: "Portuguese", level: "Native" },
     { name: "English", level: "Fluent" },
     { name: "French", level: "B1" },
+    { name: "Norwegian", level: "Basic" },
   ],
   skills: [
     {

@@ -44,10 +44,10 @@ export const projects: Project[] = [
     place: "Oslo, Norway",
     period: "2026 to now",
     summary:
-      "A community and event series for women working in marketing in Norway, which I run from concept to recap.",
+      "A community and event series for women working in marketing in Norway, which I run from concept to recap. Part of Oslo Innovation Week 2026.",
     cover: "/projects/women-in-marketing.jpg",
     coverAlt: "A room of people listening to a speaker at a Women in Marketing event about AI",
-    link: { label: "womeninmarketing.no", url: "https://womeninmarketing.no" },
+    link: { label: "womeninmarketing.no", url: "https://www.womeninmarketing.no" },
     intro:
       "Together with Barbara Casique, I started Women in Marketing to give women in the industry a place to learn from each other, share what's working and build a network. I handle the concept, programming, content and hosting.",
     sections: [
@@ -58,7 +58,7 @@ export const projects: Project[] = [
           "Follow the Trend… or Don't",
           "AI for Marketers, with Grit AI",
           "The Human Algorithm: How to Get Found and Trusted in the Age of AI, part of Oslo Innovation Week",
-          "Claude workshops for marketers",
+          "Workshop: Build Your Marketing System with Claude, at Mesh Nationaltheatret, November 2026",
         ],
       },
       {
@@ -68,6 +68,10 @@ export const projects: Project[] = [
           "Write and design the event pages, social posts and email invitations.",
           "Host on the night and produce the photo and video recaps afterwards.",
         ],
+      },
+      {
+        heading: "Community and consulting",
+        body: "Between events, members stay in touch in our Slack community and on Instagram. Barbara and I also offer hands-on consulting for brands and teams, covering brand and positioning, growth and campaigns, content and social, and AI and automation.",
       },
     ],
     tags: ["Community building", "Event production", "Partnerships", "Hosting"],
@@ -141,6 +145,32 @@ export const projects: Project[] = [
       author: "Barbara Casique, Head of Marketing, Startup Extreme",
     },
     tags: ["Team leadership", "Event content", "Volunteer coordination"],
+  },
+  {
+    slug: "save-the-posidonia",
+    title: "Save the Posidonia",
+    role: "Independent storytelling project",
+    place: "Mallorca, Spain",
+    period: "2023",
+    summary:
+      "A documentary video installation about how anchoring and mass tourism damage Posidonia seagrass in Mallorca.",
+    intro:
+      "Growing up on a small Mediterranean island, I watched an environmental problem grow with mass tourism: boat anchors damaging Posidonia, a seagrass that is critical to the health of the Mediterranean seabed. I wanted to turn a little-known issue into a story people could feel.",
+    sections: [
+      {
+        heading: "The research",
+        body: "To understand the problem beyond what I could see, I interviewed marine biologists and people who work every day to protect Posidonia, then filmed a series of underwater videos documenting the damage first-hand.",
+      },
+      {
+        heading: "The output",
+        body: "The result is a documentary video installation that blends reflection, data and art, built to make viewers stop and engage with a problem most tourists never notice. I did the research, photography and film myself.",
+      },
+      {
+        heading: "The exhibition",
+        body: "The installation was exhibited at the Lo Pardal gallery museum in Agramunt, Lleida, from July to October 2023.",
+      },
+    ],
+    tags: ["Visual storytelling", "Documentary", "Underwater video", "Research"],
   },
 ];
 

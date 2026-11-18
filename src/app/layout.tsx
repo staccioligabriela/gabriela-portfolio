@@ -1,6 +1,13 @@
 import type { Metadata } from "next";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
 import { profile } from "@/data/profile";
+
+const montserrat = Montserrat({
+  subsets: ["latin", "latin-ext"],
+  variable: "--font-montserrat",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: `${profile.name} | ${profile.role}`,
@@ -18,7 +25,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className={`scroll-smooth ${montserrat.variable}`}>
       <body className="antialiased">{children}</body>
     </html>
   );
