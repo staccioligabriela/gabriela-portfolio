@@ -52,6 +52,7 @@ export const profile: Profile = {
         "Video editing (CapCut, Adobe Premiere)",
         "Adobe Creative Suite, Figma, Canva",
         "AI workflows (Claude, ChatGPT, CapCut AI)",
+        "Automation and analytics (Zapier, a Python dashboard)",
         "WordPress",
       ],
     },

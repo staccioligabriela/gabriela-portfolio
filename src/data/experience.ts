@@ -9,7 +9,7 @@ export const experience: ExperienceItem[] = [
     start: "2024",
     end: "Now",
     summary:
-      "Content, events and community for two locations. I own event photo and video from concept to final cut, run social, Slack and the newsletter, and work with our freelancers and ads agency.",
+      "Content, marketing and events for a 1,500+ member community across two venues. Led the Oslo Innovation Week 2026 campaign (3,366 registrations) and grew LinkedIn reach per post five times.",
     project: "mesh-oslo",
   },
   {
